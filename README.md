@@ -7,14 +7,14 @@ Filters for [`intervention/image`](https://github.com/Intervention/image) .
 ## Installation
 
 ```sh
-$ composer require elfsundae/intervention-image-filters
+$ composer require jamiepickett/intervention-image-filters
 ```
 
 ## Usage
 
 ```php
 use Image;
-use ElfSundae\Image\Filters\Resize;
+use IBMCode\Image\Filters\Resize;
 
 $image = Image::make($file)
     ->filter((new Resize)->width(860))
