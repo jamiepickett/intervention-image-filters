@@ -14,7 +14,7 @@ $ composer require jamiepickett/intervention-image-filters
 
 ```php
 use Image;
-use IBMCode\Image\Filters\Resize;
+use JamiePickett\Image\Filters\Resize;
 
 $image = Image::make($file)
     ->filter((new Resize)->width(860))

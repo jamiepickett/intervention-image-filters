@@ -2,8 +2,8 @@
     "name": "jamiepickett/intervention-image-filters",
     "type": "library",
     "description": "Intervention Image Filters",
-    "homepage": "https://github.com/jamiepickett/intervention-image-filters",
     "keywords": ["intervention", "image", "filters"],
+    "homepage": "https://github.com/jamiepickett/intervention-image-filters",
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
         "intervention/image": "~2.0"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "JamiePickett\\Image\\": "src/"
         }
     }
