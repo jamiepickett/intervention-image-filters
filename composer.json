@@ -17,8 +17,8 @@
         "intervention/image": "~2.0"
     },
     "autoload": {
-        "psr-4": {
-            "IBMCode\\Image\\": "src/"
+        "psr-0": {
+            "JamiePickett\\Image\\": "src/"
         }
     }
 }

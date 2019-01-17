@@ -1,6 +1,6 @@
 <?php
 
-  namespace IBMCode\Image\Filters;
+  namespace JamiePickett\Image\Filters;
   use Intervention\Image\Image;
 
   class DemoFilter implements FilterInterface{
